@@ -1,3 +1,10 @@
+## "Like Having a Really bad PA": The Gulf between User Expectation and Experience of Conversational Agents
+
+#### Authors: Ewa Luger, Abigail Sellen,
+#### ACM CHI 2016, San Jose, CA, USA
+#### Conversational Agents; mental models; evaluation
+
+
 Whilst we have long been familiar with the notion of computers that speak, 
 the investigative concern within HCI has been upon multimodality rather than dialogue alone, 
 and there is no sense of how such interfaces are used in everyday life.
