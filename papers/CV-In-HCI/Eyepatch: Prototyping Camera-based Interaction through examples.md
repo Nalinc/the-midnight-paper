@@ -23,11 +23,13 @@ applications(fire detector vs free-food detector). Also, it is important to supp
 to preserve object coherence across frames and have smooth detected motion paths instead of just assuming the same position 
 for object as in previous frames.
 
-Eyepatch has two basic modes:
+---
+
+**Eyepatch has two basic modes:**
 - Training Mode: where users can train different types of classifiers to recognize the object, region, or parameter that they are interested in
 - Composition Mode: where the classifiers are composed in various ways and users specify where the output of the classifiers should go
 
-Classifiers supported in Eyepatch:
+**Classifiers supported in Eyepatch:**
 - Color: Based on hue histograms and backprojection for identifying distinctively colored objects
 - Brightness: for finding the brightest or darkest regions of an image, such as laser dots or shadows
 - Shape: based on Canny edge detection followed by contour matching using pair-wise geometrical histograms, for finding objects with distinctive outer contours
@@ -37,7 +39,7 @@ Classifiers supported in Eyepatch:
 - Gesture recognition: based on blob detection followed by motion trajectory matching using the Condensation algorithm, for recognizing particular patterns of motion
 
 
-What did authors learn:
+**What did authors learn:**
 - Provide image data in addition to classifier output
 - Allow data selection and filtering.
 - Provide a mechanism for data reduction
@@ -47,7 +49,7 @@ What did authors learn:
 - Allow direct manipulation of the classifier model
 - Provide a plug-in architecture
 
-Relevant work:
+**Relevant work:**
 - based on the future work proposed by authors of Crayons(design tool for camera-based interaction), such as supporting additional feature types and taking motion into account.
 - authors drew inspiration from Exemplar: viewing the state of the created model, and adjusting it for better results, is very similar to the approach they adopted in Eyepatch
 - Papier-Mâché toolkit: provided a high-level programming abstraction that allowed users to extract certain events from a camera input without worrying about the underlying details of the computer vision algorithms
