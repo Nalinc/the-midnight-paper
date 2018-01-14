@@ -29,6 +29,8 @@ I would extend this pinch detection technique to non-static backgrounds with sem
 
 In Graph Theory, there exists a path between any two vertices of a "connected component". In image processing, such components refer to connected groups of identically labeled pixels in a binary image; often each component corresponds to a distinct object which is subsequently analyzed
 
+*In CV, image segmentation is the process of partitioning a digital image into multiple segments (sets of pixels, also known as super-pixels). The goal of segmentation is to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze. Image segmentation is typically used to locate objects and boundaries (lines, curves, etc.) in images*
+
 **The pinch detection algorithm:**
 - Obtain a binary segmentation of the hand and back- ground
 - Compute connected components of the background pixels from the binary image. Label each border pixel with the component that contains it.
