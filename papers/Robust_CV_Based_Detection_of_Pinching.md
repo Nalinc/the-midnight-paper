@@ -8,7 +8,7 @@
 Interesting use of connected components of the segmented background against the hand to detect pinch gesture. By detecting the hole formed when the thumb touches the forefinger, this technique avoids the use of complex hand shape analysis, sophisticated pattern recognition techniques and fingertip tracking to detect pinch gesture.
 
 #### Weakness
-The technique assumes a camera will be mounted on top of a keyboard to detect gestures. Though this setup makes background static, it is quite uncommon and not much convenient for general use. While paper defines hole components as those background components of significant size that have no pixels on the border, it does not explain if this can be generalized across different hand colors/sizes.
+The technique assumes a camera will be mounted on top of a keyboard to detect gestures. Though this setup makes background static, it is quite uncommon and not much convenient for general use. While paper defines hole components as those background components of significant size that have no pixels on the border, it does not explain if this can be generalized across different hand colors/sizes. Also, no mechanism for object selection.
 - The detection of the hole formed by the thumb and forefinger depends on the quality of the segmentation(which is difficult in uncontrolled viewing circumstances or mobile scenarios).
 - The technique depends on the formation of a hole between the thumb and forefinger, through which the background is visible(no hole is formed if the user curls the other fingers underneath the thumb and forefinger)
 - When used as a hand-tracker, the pinch detector may be limited by the fact that the tracked position corre- sponds to the center of the hole component, not the position of the point where the thumb and forefinger touch
@@ -34,4 +34,12 @@ In Graph Theory, there exists a path between any two vertices of a "connected co
 **The pinch detection algorithm:**
 - Obtain a binary segmentation of the hand and back- ground
 - Compute connected components of the background pixels from the binary image. Label each border pixel with the component that contains it.
-- Take components of significant size (in number of pix- els) that do not have pixels on the border of the image. Each of these is a ‘hole’ indicating a pinching hand.
+- Take components of significant size (in number of pixels) that do not have pixels on the border of the image. Each of these is a ‘hole’ indicating a pinching hand.
+
+The largest background component usually corresponds to the background surrounding the hand, while any remaining background components of significant size usually corre- spond to holes formed by the hand. In practice, it is better to define hole components as those background components of significant size that have no pixels on the border, rather than relying on size alone.
+
+- TAFFI uses this ellipsoidal model for one-handed navigation of aerial and satellite imagery. This is beause thumb and forefinger of a relaxed hand are more likely to form an ellipsoid than a circular hole.
+- TAFFI uses a Kalman filter to smooth the motion of the cursor.
+- In single hand interaction, panning is accomplished by pinching and moving the hand across the keyboard, rotation by rotating the hand in the plane of the keyboard, and zooming by moving the hand up and down above the keyboard.
+- In bimanual interactions, panning is achieved by moving both hands in the same direction, zooming by pulling/moving together the two pinched hands and rotating by moving one hand faster than the other about an axis determined by their motion.
+
