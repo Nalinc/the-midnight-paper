@@ -35,7 +35,3 @@ In Graph Theory, there exists a path between any two vertices of a "connected co
 - Obtain a binary segmentation of the hand and back- ground
 - Compute connected components of the background pixels from the binary image. Label each border pixel with the component that contains it.
 - Take components of significant size (in number of pix- els) that do not have pixels on the border of the image. Each of these is a ‘hole’ indicating a pinching hand.
-
-
-**Relevant work:**
--
