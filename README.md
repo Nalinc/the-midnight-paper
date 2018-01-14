@@ -1,5 +1,3 @@
-# The-midnight-paper
-
 Notes and summaries from papers I read(usually at midnight)
 
 # List of papers
