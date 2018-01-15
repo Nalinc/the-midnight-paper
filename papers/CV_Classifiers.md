@@ -1,6 +1,7 @@
 ## Computer Vision Classifiers:
 
 **Boosted cascade of Haar classifiers:** for identifying objects of a general class, such as cars or faces
+
 **SIFT classifier(Scale-invariant feature transform):** for identifying a particular instance of a class, such as a specific book cover or logo.
 
 But neither of these feature-based classifiers performs well when attempting to identify smooth, untextured objects like 
