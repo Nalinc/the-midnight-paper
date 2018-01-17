@@ -21,13 +21,14 @@ I would extend Cyclops as an intelligent personal assistant that can not only se
 ---
 
 Depending on purpose and application, low-level sensing techniques be implemented on certain parts of the body. However, full-body motion input requires a body sensor network of sensors that are distributed on body parts, which may be inconvenient for users to put on. Cyclops overcome this by proposing a single-piece wearable device with wider "field of view". Cyclops recognizes static and moving bodily gestures based on motion history images (MHI) and a random decision forest (RDF). 
-Hardware specifications:
+
+**Hardware specifications:**
 - Uses an infrared camera for foreground extraction.
 - The Raspberry Pi NOIR with Super Fisheye Lens having a 235-Degree field of view.
 - Five infrared LEDs attached around the lens to provide uniform illumination.
 - Raspberry Pi streams images from the camera wirelessly over WiFi using the GStreamer Multimedia Framework.
 
-Image pre-processing pipeline:
+**Image pre-processing pipeline:**
 Basic idea is to extract foreground images from where the limbs enter the ego-centric view at the edge of the fisheye image. This strategy avoids dealing with non-limb foregrounds in the central part of the image
 - First, the source images (Figure 6a) are re-oriented using the information that is pro- vided by the IMU
 - The process begins from a circular strip at the edge of the fisheye image. This circular strip is then straightened.
