@@ -5,8 +5,10 @@
 #### Full-body gesture input; posture recognition; single-point wearable devices; ego-centric view
 
 #### Strength
+Different placement options allow users to use the device according to the task at hand. Wider "field-of-view" not only captures full body gestures,but also provides dedicated interaction space. I like the way they simplified foreground extraction using active infrared illumination using infrared LEDs.
 
 #### Weakness
+
 
 #### Critique
 
