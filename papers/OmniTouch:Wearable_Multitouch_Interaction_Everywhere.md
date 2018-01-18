@@ -28,3 +28,5 @@ I would extend OmniTouch to explore typing techniques on projected virtual keybo
 
 **Relevant work:**
 - SixthSense and Interactive Dirt both featured a worn cam- era/projector combination.
+- Skinput uses bio-acoustics to detect finger tap events on the skin. But it does not support for any surface other than the user’s body, do not detect touch drag movements, and the lack of support for multitouch.
+
