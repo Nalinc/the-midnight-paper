@@ -17,8 +17,14 @@ It is not clear if we can use such camera and projector based interaction for ou
 I would extend OmniTouch to explore typing techniques on projected virtual keyboards. What are users' preferences for different typing surfaces, how to tackle occlusions on them and different ways to provide haptic feedback on such surfaces.
 
 ---
+**Hardware specifications:**
+- First is a custom, short-range PrimeSense depth camera, which pro- vides a 320x240 depth map at 30 FPS. Objects as close as 20cm can be imaged by this sensor, with relative error in the depth (Z) axis of approximately 5mm.
+- The second key component is a Microvision ShowWX+ laser pico-projector. This projector has the important property of wide angle, focus-free projection of graphical elements regardless of depth
+- Both the depth camera and projector are rigidly mounted to a form-fitting metal frame, which is worn on the shoulders, and secured with a chest strap. Camera and projector are tethered to a desktop computer for prototyping purposes
+
+
 **What did authors learn:**
--
+- 
 
 **Relevant work:**
--
+- SixthSense and Interactive Dirt both featured a worn cam- era/projector combination.
