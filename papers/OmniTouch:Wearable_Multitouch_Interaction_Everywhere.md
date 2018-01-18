@@ -26,10 +26,17 @@ It is not clear if we can use such camera and projector based interaction for ou
 
 
 **System description**
-* OmniTouch can use a surface’s lock point and orientation to provide an interface that tracks with a surface. It has three distinct approaches to define, present, and track interactive areas
-  - One Size Fits All: the interface can only be as big as the smallest conceivable surface (generally the hand)
-  - Classification-Driven Placement: In this, the system first differentiates between a small set of surfaces by performing surface classification. Second, the system automatically sizes, positions and tracks an interface given the available projection area and heuristics describing the appropriate location for that surface. (suffers from scalability issues, since it is simply not possible to build a classifier for every conceivable surface)
-  - User-Specified Placement: let the user define the interactive area. They can either "click" on a surface, causing a generically sized interface to be centered at that location, or a user can click and drag to position and size in one continuous action.
+- MULTITOUCH FINGER TRACKING
+  - Finger Segmentation: (This ordering is critical; otherwise, concave features would also be recognized e.g. gaps be- tween fingers)
+    - First, they take a depth map of a scene (Figure 3A) and compute the depth derivative in the X- and Y-axes using a sliding, 5x5 pixel window (Figure 3B)
+    - Then, they iterate over this derivative image, looking for vertical slices of cylinder- like objects. This is similar to template matching, but with some dynamic parameters.
+    - for a slice of pixels to be a candidate, it must show a steep positive derivate, followed by a region of relative smoothness, and finally closed by a steep negative derivative.
+  - Finger Click Detection: 
+- ON-DEMAND PROJECTED INTERFACES
+  - OmniTouch can use a surface’s lock point and orientation to provide an interface that tracks with a surface. It has three distinct approaches to define, present, and track interactive areas
+    - One Size Fits All: the interface can only be as big as the smallest conceivable surface (generally the hand)
+    - Classification-Driven Placement: In this, the system first differentiates between a small set of surfaces by performing surface classification. Second, the system automatically sizes, positions and tracks an interface given the available projection area and heuristics describing the appropriate location for that surface. (suffers from scalability issues, since it is simply not possible to build a classifier for every conceivable surface)
+    - User-Specified Placement: let the user define the interactive area. They can either "click" on a surface, causing a generically sized interface to be centered at that location, or a user can click and drag to position and size in one continuous action.
 
 **Relevant work:**
 - SixthSense and Interactive Dirt both featured a worn camera/projector combination.
