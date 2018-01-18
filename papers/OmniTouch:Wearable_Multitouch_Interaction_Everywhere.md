@@ -27,11 +27,15 @@ It is not clear if we can use such camera and projector based interaction for ou
 
 **System description**
 - MULTITOUCH FINGER TRACKING
-  - Finger Segmentation: (This ordering is critical; otherwise, concave features would also be recognized e.g. gaps be- tween fingers)
+  - Finger Segmentation: (This ordering is critical; otherwise, concave features would also be recognized e.g. gaps between fingers)
     - First, they take a depth map of a scene (Figure 3A) and compute the depth derivative in the X- and Y-axes using a sliding, 5x5 pixel window (Figure 3B)
     - Then, they iterate over this derivative image, looking for vertical slices of cylinder- like objects. This is similar to template matching, but with some dynamic parameters.
     - for a slice of pixels to be a candidate, it must show a steep positive derivate, followed by a region of relative smoothness, and finally closed by a steep negative derivative.
-  - Finger Click Detection: 
+    - Using the derivative of the depth map suppresses absolute depth infor- mation, allowing the scene to be treated as a conventional 2D image, which is easier to process with. Moreover, the derivative profile is mostly invariant regardless of the surface the finger is operating on. This greatly simplifying recognition.
+  - Finger Click Detection: (Finger segmentation process, described above, yields the spatial location (X, Y and Z) of fingers.)
+    - They start by computing the midpoint of the finger path, which roughly equates to the location of the minor knuckle. 
+    - From this point, they flood fill towards the fingertip. When the finger is hovering above a surface or in free space, the flood fill ex- pands to encompass the entire finger. 
+    - When the finger contacts a surface, the fill operation floods out into the connecting object.
 - ON-DEMAND PROJECTED INTERFACES
   - OmniTouch can use a surface’s lock point and orientation to provide an interface that tracks with a surface. It has three distinct approaches to define, present, and track interactive areas
     - One Size Fits All: the interface can only be as big as the smallest conceivable surface (generally the hand)
