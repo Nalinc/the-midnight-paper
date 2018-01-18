@@ -23,7 +23,7 @@ Notes and summaries from papers I read(usually at midnight)
 
 #### Strength
 #### Weakness
-#### Critique
+#### Future Work
 ---
 **What did authors learn:**
 -
