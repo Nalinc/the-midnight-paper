@@ -12,8 +12,8 @@ Use of flood-fill heuristic instead of using only z-distance for finger click de
 
 #### Weakness
 It is not clear if we can use such camera and projector based interaction for outdoors, or at places where natural light is way brighter than what a projector can project on a surface. Besides, authors only explored short term user-interactions with projected interfaces which only serve as a proof-of-concept but does not give much insight on whether they are actually engaging or not.
-- Physical privacy filters are available for laptop screens, but cannot be used on projected surfaces.
 - Projected surfaces are easily viewable by others. This means that information, previously only visible on the laptop screen, may now be publicly projected.
+- Physical privacy filters are available for laptop screens, but cannot be used on projected surfaces.
 
 #### Future Work
 - I would extend OmniTouch to explore typing techniques on projected virtual keyboards. What are users' preferences for different typing surfaces, how to tackle occlusions on them and different ways to provide haptic feedback on such surfaces.
