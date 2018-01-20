@@ -7,6 +7,9 @@ Notes and summaries from papers I read(usually at midnight)
 - ["Cyclops: Wearable and Single-Piece Full-Body Gesture Input Devices"](https://nalinc.github.io/the-midnight-paper/papers/Cyclops:Full_Body_Gesture_Input_Devices)
 - ["OmniTouch: Wearable Multitouch Interaction Everywhere"](https://nalinc.github.io/the-midnight-paper/papers/OmniTouch:Wearable_Multitouch_Interaction_Everywhere)
 - ["Bonfire: A Nomadic System for Hybrid Laptop-Tabletop Interaction"](https://nalinc.github.io/the-midnight-paper/papers/Bonfire:A_Nomadic_System_for_Hybrid_Laptop-Tabletop_Interaction)
+- ["Surround-See: Enabling Peripheral Vision on Smartphones during Active Use"](https://nalinc.github.io/the-midnight-paper/papers/Surround-See:Enabling_Peripheral_Vision_on_Smartphones_during_Active_Use)
+- ["VisionWand: Interaction Techniques for Large Displays using a Passive Wand Tracked in 3D"](https://nalinc.github.io/the-midnight-paper/papers/VisionWand:Interaction_Techniques_for_Large_Displays_using_a_Passive_Wand_Tracked_in_3D)
+
 
 
 
