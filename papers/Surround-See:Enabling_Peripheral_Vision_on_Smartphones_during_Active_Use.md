@@ -46,7 +46,15 @@
 - Detecting User Activities in the Periphery
   - They used  optical flow for Motion Detection , where the spreading of the motion vectors indicated that Surround-See was being placed closer to the user and the gathering of the motion vectors indicated that Surround-See was being moved away from the user.
   - Remote gesturing assumes the phone is sitting on a stable platform such as a table and that the view is uncluttered. This allows us to use background subtraction to remove any skin-color noise in the background.
+  - Posture for Speed-dialing
+  - Location-based Messaging
+  - Notify to Take the Phone
 
+**Surround See interactions**
+- Pen vs. Touch Input'
+- Off-screen Pointing'
+- off-screen
+- Controlling Remote Objects (Physical Shortcut)
 **Hardware Specification:**
 - The prototype is a HTC Butterfly smartphone with an omni-directional lens from Kogeto mounted on its front-facing camera.
 - The omni-directional lens has a 360˚ and 56˚ field-of-view in the horizontal and vertical planes, respectively.
