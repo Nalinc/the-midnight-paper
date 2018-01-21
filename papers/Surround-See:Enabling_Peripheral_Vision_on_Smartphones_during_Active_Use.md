@@ -38,11 +38,10 @@
     - This is error prone when the background contains colors close to that of the user’s skin. 
     - So they dynamically filtered out the background noise by removing the blobs that appeared in the same location for a certain fixed number of frames (e.g. 30 in Surround See).
   - Tracking fingertips
-    - Upon extracting the user’s hand
-    - contour, the user’s fingertips were detected by searching through the contour points, and identifying those with a curvature less than a threshold value (e.g. 50˚)
+    - Upon extracting the user’s hand contour, the user’s fingertips were detected by searching through the contour points, and identifying those with a curvature less than a threshold value (e.g. 50˚)
     - It can detect the finger’s up-and-down (vertical) motion by calculating the distance from the detected fingertip to the center of the omni-directional image, where an increase in the distance indicates that the finger is moving upward, and a decrease means the opposite.
-  - A hand posture is recognized by counting the number of detected fingertips.
-  - Pinch is detected using Wilson’s method, where a pinch is recognized when there is a connected blob inside a hand contour Pinch can be used as a ‘mouse click’ to confirm an action or to trigger a command.
+  - Recognizing hand postures: A hand posture is recognized by counting the number of detected fingertips.
+  - Detecting pinching: Pinch is detected using Wilson’s method, where a pinch is recognized when there is a connected blob inside a hand contour Pinch can be used as a ‘mouse click’ to confirm an action or to trigger a command.
 - Detecting User Activities in the Periphery
   - They used  optical flow for Motion Detection , where the spreading of the motion vectors indicated that Surround-See was being placed closer to the user and the gathering of the motion vectors indicated that Surround-See was being moved away from the user.
   - Remote gesturing assumes the phone is sitting on a stable platform such as a table and that the view is uncluttered. This allows us to use background subtraction to remove any skin-color noise in the background.
@@ -53,8 +52,12 @@
 **Surround See interactions**
 - Pen vs. Touch Input'
 - Off-screen Pointing'
-- off-screen
 - Controlling Remote Objects (Physical Shortcut)
+- Posture for Speed-dialing
+- Location-based Messaging
+- Proximity-based Screen Rotation
+- Notify to Take the Phone
+
 **Hardware Specification:**
 - The prototype is a HTC Butterfly smartphone with an omni-directional lens from Kogeto mounted on its front-facing camera.
 - The omni-directional lens has a 360˚ and 56˚ field-of-view in the horizontal and vertical planes, respectively.
