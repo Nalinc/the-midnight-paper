@@ -26,14 +26,14 @@
   - Recognizing an Object in the Smartphone’s Environment
     - This was implemented using Local Binary Patterns (LBP) and a machine learning classifier.
     - Before the recognition process, they pre-processed the raw omni-directional image by un-wrapping it to a panoramic image using the method described in.
-    - Then they used LBP to describe the image using a unique feature vector(histogram of the microstructures). LBP detects microstructures inside an image (e.g. lines, edges) and is orientation and luminance invariant.
+    - Then **they used LBP to describe the image using a unique feature vector**(histogram of the microstructures). LBP detects microstructures inside an image (e.g. lines, edges) and is orientation and luminance invariant.
     - The feature vector was used to train a machine learning classifier or to recognize a peripheral environment.
     - To train the classifier, they used Chang and Lin’s LIBSVM library using the Support Vector Machine (SVM). They used a RBF Kernel with parameters that gave the highest 5-fold cross-validation scores
   - Recognizing Peripheral Items
     - An object in the device’s environment is recognized using feature point matching using the ORB algorithm(Oriented FAST and Rotated BRIEF). ORB searches each input frame for a desired object using a reference image.
     - ORB suffers from orientatons related issues. Surround See fixes this by loading a list of reference images and their corresponding orientations in the begining, and using them to rotate the input frames during the recognition process.
   - Skin Detection
-    - Surround-See detects the user’s hand using a skin color model in YCbCr color space. A skin color pixel was detected if its Cr and Cb values fall into the ranges [140, 166] and [135, 180] respectively.
+    - Surround-See **detects the user’s hand using a skin color model in YCbCr color space**. A skin color pixel was detected if its Cr and Cb values fall into the ranges [140, 166] and [135, 180] respectively.
     - The user’s hand was detected by looking for blobs that are larger than a threshold size.
     - This is error prone when the background contains colors close to that of the user’s skin. 
     - So they dynamically filtered out the background noise by removing the blobs that appeared in the same location for a certain fixed number of frames (e.g. 30 in Surround See).
@@ -41,9 +41,9 @@
     - Upon extracting the user’s hand contour, the user’s fingertips were detected by searching through the contour points, and identifying those with a curvature less than a threshold value (e.g. 50˚)
     - It can detect the finger’s up-and-down (vertical) motion by calculating the distance from the detected fingertip to the center of the omni-directional image, where an increase in the distance indicates that the finger is moving upward, and a decrease means the opposite.
   - Recognizing hand postures: A hand posture is recognized by counting the number of detected fingertips.
-  - Detecting pinching: Pinch is detected using Wilson’s method, where a pinch is recognized when there is a connected blob inside a hand contour Pinch can be used as a ‘mouse click’ to confirm an action or to trigger a command.
+  - Detecting pinching: **Pinch is detected using Wilson’s method**, where a pinch is recognized when there is a connected blob inside a hand contour Pinch can be used as a ‘mouse click’ to confirm an action or to trigger a command.
 - Detecting User Activities in the Periphery
-  - They used  optical flow for Motion Detection , where the spreading of the motion vectors indicated that Surround-See was being placed closer to the user and the gathering of the motion vectors indicated that Surround-See was being moved away from the user.
+  - **They used  optical flow for Motion Detection**, where the spreading of the motion vectors indicated that Surround-See was being placed closer to the user and the gathering of the motion vectors indicated that Surround-See was being moved away from the user.
   - Remote gesturing assumes the phone is sitting on a stable platform such as a table and that the view is uncluttered. This allows us to use background subtraction to remove any skin-color noise in the background.
   - Posture for Speed-dialing
   - Location-based Messaging
