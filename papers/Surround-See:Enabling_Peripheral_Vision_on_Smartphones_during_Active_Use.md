@@ -36,7 +36,7 @@
     - Surround-See detects the user’s hand using a skin color model in YCbCr color space. A skin color pixel was detected if its Cr and Cb values fall into the ranges [140, 166] and [135, 180] respectively.
     - The user’s hand was detected by looking for blobs that are larger than a threshold size.
     - This is error prone when the background contains colors close to that of the user’s skin. 
-    - They dynamically filtered out the background noise by removing the blobs that appeared in the same location for a certain fixed number of frames (e.g. 30 in Surround See).
+    - So they dynamically filtered out the background noise by removing the blobs that appeared in the same location for a certain fixed number of frames (e.g. 30 in Surround See).
   - Tracking fingertips
     - Upon extracting the user’s hand
     - contour, the user’s fingertips were detected by searching through the contour points, and identifying those with a curvature less than a threshold value (e.g. 50˚)
