@@ -44,10 +44,8 @@
   - Detecting pinching: **Pinch is detected using Wilson’s method**, where a pinch is recognized when there is a connected blob inside a hand contour Pinch can be used as a ‘mouse click’ to confirm an action or to trigger a command.
 - Detecting User Activities in the Periphery
   - **They used  optical flow for Motion Detection**, where the spreading of the motion vectors indicated that Surround-See was being placed closer to the user and the gathering of the motion vectors indicated that Surround-See was being moved away from the user.
-  - Remote gesturing assumes the phone is sitting on a stable platform such as a table and that the view is uncluttered. This allows us to use background subtraction to remove any skin-color noise in the background.
-  - Posture for Speed-dialing
-  - Location-based Messaging
-  - Notify to Take the Phone
+  - Remote gesturing: assumes the phone is sitting on a stable platform such as a table and that the view is uncluttered. This allows us to use background subtraction to remove any skin-color noise in the background.
+  - detect the user’s activity within a user-defined region of interest (ROI) (eg. someone enters from door)
 
 **Surround See interactions**
 - Pen vs. Touch Input'
