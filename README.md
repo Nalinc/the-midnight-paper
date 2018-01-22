@@ -15,6 +15,10 @@ Notes and summaries from papers I read(usually at midnight)
 
 **Human AI Interaction**
 - ["Like Having a Really bad PA": The Gulf between User Expectation and Experience of Conversational Agents](https://nalinc.github.io/the-midnight-paper/papers/The_Gulf_between_User_Expectation_and_Experience_of_Conversational_Agents)
+- "What do people expect from robots?"
+- "Becoming Wikipedian: transformation of participation in a collaborative online encyclopedia"
+- "What is a robot companion - Friend, assistant or butler?"
+- "Toys that Listen: A Study of Parents, Children, and Internet-Connected Toys"
 - ["How Much Information? Effects of Transparency on Trust in an Algorithmic Interface"](https://nalinc.github.io/the-midnight-paper/papers/How_Much_Information_Effects_of_Transparency_on_Trust_in_an_Algorithmic_Interface)
 - ["Priming Drivers before Handover in Semi-Autonomous Cars"](https://nalinc.github.io/the-midnight-paper/papers/Priming_Drivers_before_Handover_in_Semi-Autonomous_Cars)
 
