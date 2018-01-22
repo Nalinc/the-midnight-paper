@@ -23,7 +23,7 @@ Effects of early warnings, or pre-alerts, on handover performance in dual task s
 Authors used a 3 (pre-alert) x 2 (number of tasks) within-subjects analysis of variance (ANOVA) with an alpha-level of .05 for significance. They also used Holm-Bonferroni-corrected post-hoc tests where needed.
 
 #### Did	the	paper	draw	convincing	conclusions	using	the	methodology?
-Yes?
+??
 
 #### Describe	a	few	ways	in	which	the	data	collection	and	analysis	methodology	can	be improved to	better answer	the	research questions
 Due to between-subjects nature of the study, results might be influenced due to learning effects?
