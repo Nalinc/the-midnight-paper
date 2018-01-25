@@ -5,6 +5,7 @@
 #### Peripheral mobile vision, mobile ‘seeing’, mobile surround vision.
 
 #### Strengths
+Surround See gives mobile device the ability to perceive specific objects in its periphery and allow the user to trigger certain actions by pointing at them. This not only enable devices to be aware of their surroundings but also augment user interaction with the device itself. Such user and situation awareness in devices has the potential to shape the design of future products in market. Some other strengths are
 - Allows users to point at objects in the environment to interact with content
 - Let users operate(pointing/waving) the mobile device at a physical distance even when the user is not holding it.
 - Can trigger reminders based on an environment it recognizes.
@@ -14,11 +15,11 @@
   - This is done by loading a list of reference images and their corresponding orientations in the begining, and using them to rotate the input frames during the recognition process.
 
 #### Weakness
-- Authors do not explain how they handle false positive gestures if someone accidently waves a hand from a peripheral distance while the real user is near the phone. What if its the other way round? This essestially means that both front-camera and omni-vision camera need to detect faces simulatneously which would bring more latency and delay appropriate action that needs to be taken.
+- Authors did not explain how to handle false positive gestures. Situations where someone accidentally waves a hand from a peripheral distance while the real user is near the phone are not addressed. This essentially means that at some point, both front-camera and omni-vision camera need to detect faces simultaneously which would introduce latency and delay appropriate action that needs to be taken
 - Under 'Recognizing hand postures', authors mentions that '1' posture, with the index finger is reserved for pointing. However, under 'Posture for Speed-dialing', they talk about mapping 5 phone numbers to the 5 hand postures (from 1 to 5). They dont really clarify how Surround-See distuinghes between 'pointing' and 'speed-dialing 1' gesture.
 
 #### Future Work
-- 
+- I would extend Surround See's ability to perceive its environment by integrating a classifier that auto-detects the type of room where device is being used and adjust necessary settings accordingly(sound, airplane mode). It would be similar to how most of the present day devices have auto-brightness setting. Such a classifier can cover common places like airport, lecture hall, bedroom or outdoors.
 
 ---
 **System Description**
