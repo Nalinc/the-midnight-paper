@@ -5,7 +5,7 @@
 #### Keywords: Augmented reality, Cameras, Magnetic sensors, Sensor systems, Image recognition, Registers, Position measurement, Volume measurement, Ultrasonic variables measurement, Magnetic devices
 
 #### Strength
-I like the way authors created a separate tool that allowed developers to register annotation information with real world objects instead of manually calculating them. Determining the position of a 3D point in the real world based on the stereo vision method is amazing.  
+I like the authoring tool that allowed system developers to register annotation information with real world objects instead of manually calculating them. Determining the position of a 3D point in the real world based on the stereo vision method is a good idea and avoid manual calculations in 3D space.  
 
 - allow users to view real world objects with spatially registered digital annotation.
 - information authoring tool
