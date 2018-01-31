@@ -9,6 +9,9 @@ Notes and summaries from papers I read(usually at midnight)
 - ["Bonfire: A Nomadic System for Hybrid Laptop-Tabletop Interaction"](https://nalinc.github.io/the-midnight-paper/papers/Bonfire:A_Nomadic_System_for_Hybrid_Laptop-Tabletop_Interaction)
 - ["Surround-See: Enabling Peripheral Vision on Smartphones during Active Use"](https://nalinc.github.io/the-midnight-paper/papers/Surround-See:Enabling_Peripheral_Vision_on_Smartphones_during_Active_Use)
 - ["VisionWand: Interaction Techniques for Large Displays using a Passive Wand Tracked in 3D"](https://nalinc.github.io/the-midnight-paper/papers/VisionWand:Interaction_Techniques_for_Large_Displays_using_a_Passive_Wand_Tracked_in_3D)
+- ["Matrix: a realtime object identification and registration method for augmented reality"](https://nalinc.github.io/the-midnight-paper/papers/Matrix:A_realtime_object_identification_and_registration_method_for_augmented_reality)
+- ["Designable Visual Markers"](https://nalinc.github.io/the-midnight-paper/papers/Designable_Visual_Markers)
+- ["FrameWire: A Tool for Automatically Extracting Interaction Logic from Paper Prototyping Tests"](https://nalinc.github.io/the-midnight-paper/papers/FrameWire:A_Tool_for_Automatically_Extracting_Interaction Logic_from_Paper_Prototyping_Tests)
 
 
 
