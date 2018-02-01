@@ -5,16 +5,17 @@
 #### Keywords: Augmented reality, Cameras, Magnetic sensors, Sensor systems, Image recognition, Registers, Position measurement, Volume measurement, Ultrasonic variables measurement, Magnetic devices
 
 #### Strength
-I like the authoring tool that allowed system developers to register annotation information with real world objects instead of manually calculating them. Determining the position of a 3D point in the real world based on the stereo vision method is a good idea and avoid manual calculations in 3D space.  
+I like the authoring tool that allowed system developers to register annotation information with real world objects instead of manually calculating them. Determining the position of a three-dimensional point in the real world based on the stereo vision method is a good idea and avoid complex manual calculations in three-dimensional space. 
 
 - allow users to view real world objects with spatially registered digital annotation.
 - information authoring tool
 
 #### Weakness
-- Authors did not explain why they used their own internal 3D data format and not any of the standardized 3D graphics format such as VRML or DXF.
+- Authors did not explain why they only used their own internal data format and not any of the standardized three-dimensional graphics format such as VRML or DXF. It was not clear whether the internal three-dimensional data format simply served as a representation of the data points, or brought any performance benefits over standard formats.
 
 
 #### Future Work
+Other than simply projecting static models over the markers, I would like to extend this project by overlaying information in the form of "motion graphics" in three dimentional space to illustrate a concept. This would be useful in explaning phenomenons/events that involve multiple steps.
 
 ---
 
