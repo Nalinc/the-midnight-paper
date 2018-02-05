@@ -5,6 +5,7 @@
 #### Keywords: Visually impaired, blind, accessibility, design, ideation, multicultural, AI, artificial intelligence
 
 #### What	is	the	high-level	research question
+What kinds of things people with visual disabilities would like to have as part of their tech toolkit as AI matures.
 
 #### Specific Research Question and Hypothesis
 
