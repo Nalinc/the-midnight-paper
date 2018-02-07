@@ -12,6 +12,9 @@ Notes and summaries from papers I read(usually at midnight)
 - ["Matrix: a realtime object identification and registration method for augmented reality"](https://nalinc.github.io/the-midnight-paper/papers/Matrix:A_realtime_object_identification_and_registration_method_for_augmented_reality)
 - ["Designable Visual Markers"](https://nalinc.github.io/the-midnight-paper/papers/Designable_Visual_Markers)
 - ["FrameWire: A Tool for Automatically Extracting Interaction Logic from Paper Prototyping Tests"](https://nalinc.github.io/the-midnight-paper/papers/FrameWire:A_Tool_for_Automatically_Extracting_Interaction_Logic_from_Paper_Prototyping_Tests)
+- ["Video Puppetry: A Performative Interface for Cutout Animation"](https://nalinc.github.io/the-midnight-paper/papers/Video_Puppetry:A_Performative_Interface_for_Cutout_Animation)
+- ["Video Browsing by Direct Manipulation"](https://nalinc.github.io/the-midnight-paper/papers/Video_Browsing_by_Direct_Manipulation)
+- ["RetroDepth: 3D Silhouette Sensing for High-Precision Input On and Above Physical Surfaces"](https://nalinc.github.io/the-midnight-paper/papers/RetroDepth:3D_Silhouette_Sensing_for_High-Precision_Input_On_and_Above_Physical_Surfaces)
 
 
 
