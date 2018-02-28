@@ -15,6 +15,9 @@ Notes and summaries from papers I read(usually at midnight)
 - ["Video Puppetry: A Performative Interface for Cutout Animation"](https://nalinc.github.io/the-midnight-paper/papers/VideoPuppetry:A_Performative_Interface_for_Cutout_Animation)
 - ["Video Browsing by Direct Manipulation"](https://nalinc.github.io/the-midnight-paper/papers/Video_Browsing_by_Direct_Manipulation)
 - ["RetroDepth: 3D Silhouette Sensing for High-Precision Input On and Above Physical Surfaces"](https://nalinc.github.io/the-midnight-paper/papers/RetroDepth:3D_Silhouette_Sensing_for_High-Precision_Input_On_and_Above_Physical_Surfaces)
+- ["TouchLight - An Imaging Touch Screen and Display for Gesture-Based Interaction"](https://nalinc.github.io/the-midnight-paper/papers/TouchLight:An_Imaging_Touch_Screen_and_Display_for_Gesture_Based_Interaction)
+- ["Visual Touchpad: A Two-handed Gestural Input Device"](https://nalinc.github.io/the-midnight-paper/papers/VisualTouchpad:A_Two_handed_Gestural_Input_Device)
+- ["Palpebrae Superioris: Exploring the Design Space of Eyelid Gestures"](https://nalinc.github.io/the-midnight-paper/papers/PalpebraeSuperioris:Exploring_the_Design_Space_of_Eyelid_Gestures)
 
 
 **Human AI Interaction**
