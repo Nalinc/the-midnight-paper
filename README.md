@@ -31,6 +31,7 @@ Notes and summaries from papers I read(usually at midnight)
 - ["Priming Drivers before Handover in Semi-Autonomous Cars"](https://nalinc.github.io/the-midnight-paper/papers/Priming_Drivers_before_Handover_in_Semi-Autonomous_Cars)
 - ["Enabling Building Service Robots to Guide Blind People"](https://nalinc.github.io/the-midnight-paper/papers/Enabling_Building_Service_Robots_to_Guide_Blind_People)
 - ["Imagining Artificial Intelligence Applications with People with Visual Disabilities using Tactile Ideation"](https://nalinc.github.io/the-midnight-paper/papers/Imagining_Artificial_Intelligence_Applications_with_People_with_Visual_Disabilities_using_Tactile_Ideation)
+- ["Whole-Home Gesture Recognition Using Wireless Signals"](https://nalinc.github.io/the-midnight-paper/papers/Whole_Home_Gesture_Recognition_Using_Wireless_Signals)
 
 
 
