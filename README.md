@@ -19,6 +19,7 @@ Notes and summaries from papers I read(usually at midnight)
 - ["Visual Touchpad: A Two-handed Gestural Input Device"](https://nalinc.github.io/the-midnight-paper/papers/VisualTouchpad:A_Two_handed_Gestural_Input_Device)
 - ["Palpebrae Superioris: Exploring the Design Space of Eyelid Gestures"](https://nalinc.github.io/the-midnight-paper/papers/PalpebraeSuperioris:Exploring_the_Design_Space_of_Eyelid_Gestures)
 - ["EyeScout: Active Eye Tracking for Position and Movement Independent Gaze Interaction with Large Public Displays"](https://nalinc.github.io/the-midnight-paper/papers/EyeScout)
+- ["RoomAlive: Magical Experiences Enabled by Scalable, Adaptive Projector-camera Units"](https://nalinc.github.io/the-midnight-paper/papers/RoomAlive)
 
 
 **Human AI Interaction**
