@@ -8,7 +8,8 @@
 I like the way RoomAlive expands the gaming experience outside of screens using scalable projector system that adapts gaming content to the environment.
 
 #### Weakness
-The primary limitation of using projected mapping to enhance gaming experience is to keep correct balance between...
+RoomAlive does not seem to support a wide variety of interactions due to latencies involved in real-time projector camera systems. This latency can not only arise from projectors themselves, but also come from depth-camera, graphics card and processing.
 
 #### Future Work
+I would like to extend Roomalive by creating a virtual pet that can move around the house and play with humans.
 
