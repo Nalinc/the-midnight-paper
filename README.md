@@ -22,6 +22,9 @@ Notes and summaries from papers I read(usually at midnight)
 - ["RoomAlive: Magical Experiences Enabled by Scalable, Adaptive Projector-camera Units"](https://nalinc.github.io/the-midnight-paper/papers/RoomAlive)
 - ["The Office of the Future : A Unified Approach to Image-Based Modeling and Spatially Immersive Displays"](https://nalinc.github.io/the-midnight-paper/papers/The_Office_of_the_Future)
 - ["WorldKit: Rapid and Easy Creation of Ad-hoc Interactive Applications on Everyday Surfaces"](https://nalinc.github.io/the-midnight-paper/papers/WorldKit)
+- ["Prefab: implementing advanced behaviors using pixel-based reverse engineering of interface structure"](https://nalinc.github.io/the-midnight-paper/papers/Prefab)
+- ["MixFab: A Mixed-reality Environment for Personal Fabrication"](https://nalinc.github.io/the-midnight-paper/papers/MixFab)
+- ["Tohme: detecting curb ramps in google street view using crowdsourcing, computer vision, and machine learning"](https://nalinc.github.io/the-midnight-paper/papers/Tohme)
 
 
 **Human AI Interaction**
