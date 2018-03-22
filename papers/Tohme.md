@@ -1,8 +1,8 @@
 ## Tohme: Detecting Curb Ramps in Google Street View using Crowdsourcing, Computer Vision, and Machine Learning
 
-#### Authors: 
-#### Conference
-#### Keywords
+#### Authors: Kotaro Hara, Jin Sun, Robert Moore, David Jacobs, Jon E. Froehlich
+#### Conference: UIST '14, October 05 - 08 2014, Honolulu, HI, USA
+#### Keywords: Crowdsourcing accessibility; computer vision; Google Street View; Amazon Mechanical Turk
 
 #### Strength
 One of the biggest strength of TohMe is Dynamic Workflow Allocation via svControl. This machine-learning module not only schedules work via Performance Prediction, but also assists in predicting CV performance and assignment of work to either a manual labor pipeline (svLabel) or an automated pipeline with human verification.
