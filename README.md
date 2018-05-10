@@ -41,20 +41,6 @@ Notes and summaries from papers I read(usually at midnight)
 
 
 
-# Template
-```
-## PaperTitle
-
-#### Authors: 
-#### Conference
-#### Keywords
-
-#### Strength
-#### Weakness
-#### Future Work
----
-**What did authors learn:**
--
-**Relevant work:**
--
-```
+# Templates
+- [Computer Vision in HCI](templates/cv_in_hci.md)
+- [Human AI interaction](templates/human_ai.md)
