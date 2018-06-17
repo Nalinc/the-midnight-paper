@@ -8,3 +8,4 @@ I started this project as a way to organize my readings and keep important notes
 #### Templates
 - [Computer Vision in HCI](templates/cv_in_hci.md)
 - [Human AI interaction](templates/human_ai.md)
+- [Reinforcement Learning](templates/reinforcement_learning.md)
