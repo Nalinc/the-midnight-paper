@@ -2,14 +2,11 @@
 
 ## Notes from NIPS 2017
 - [David Abel](nips_2017_abel.pdf)
+- [Borealis.ai](https://www.borealisai.com/en/blog/notes-nips-2017/)
 
 
 ## Notes from ICML 2018
 - [David Abel](icml_2018_abel.pdf)
-
-## Notes from NIPS 2018
-
-- [Borealis.ai](https://www.borealisai.com/en/blog/notes-nips-2017/)
 
 
 ## Miscellaneous
