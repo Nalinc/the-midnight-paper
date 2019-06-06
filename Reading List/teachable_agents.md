@@ -11,6 +11,7 @@
 #### Feature Selection
   - *5th June 2019*
     - [Gentle Intro to Predictive Modeling (machinelearningmastery)](https://machinelearningmastery.com/gentle-introduction-to-predictive-modeling/)
+    - [An Introduction to Feature Selection](https://machinelearningmastery.com/an-introduction-to-feature-selection/)
     - 
 
 ### Papers
