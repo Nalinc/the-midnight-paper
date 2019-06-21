@@ -7,75 +7,20 @@
 
 ## Papers
 
-1. [Learning binary relations and total orders](#learning-binary-relations-and-total-orders)
-2. [On the Complexity of Teaching](#on-the-complexity-of-teaching)
-3. [Mixed initiative interfaces for learning tasks](#mixed-initiative-interfaces-for-learning-tasks)
-4. [Interactive Machine Learning](#interactive-machine-learning)
-5. [CueFlik: interactive concept learning in image search](#interactive-concept-learning-in-image-search)
-6. [The teaching dimension of linear learners](#the-teaching-dimension-of-linear-learners)
-7. [Interactive Semantic Featuring for Text Classification](#interactive-semantic-featuring-for-text-classification)
-
-## Learning binary relations and total orders
->  **Authors**: Goldman, S.A., Rivest, R.L., and Schapire, R.E    
-**Venue**: SIAM Journal on Computing    
-**Date**: 1993
-
-### Summary
-#### Motivation: It is important to acquire information about a relation between two sets ("has-part" relation between a set of animals and a set of attributes)
-#### Problem Statement: Design a prediction algorithm to learn a binary relation when the learner has limited prior information about the predicate forming the relation.
-#### Technique 
-- Binary relation is represented as an n x m binary matrix, where an entry contains the value of the predicate for the corresponding elements.
-- The learner is repeatedly given a pair of elements, one from each set and asked to predict the corresponding matrix entry. After making its prediction, the learner is told the correct value of the matrix entry.
-- Aim is to minimize the number of incorrect predictions made by the learner.
-- PAC model of learning: instances are chosen randomly from an arbitrary unknown probability distribution on the instance space. A concept class is PAC-learnable if the learner can output a hypothesis that is correct on most of the instances.
-- They have extended the basic mistake-bound model to cover cases where 
-    - a helpful teacher selects a query sentence
-    - instances are chosen by an adversary
-    - instances are sampled according to a probability distribution on the instance space.
-- Conventionally, teachers have been used to provide (a) counterexamples to conjectured concepts, or to break the concepts into smaller sub-concepts. However, in this work, the teacher only selects the presentation order for the instances.
-
-
-## On the Complexity of Teaching
->  **Authors**: Goldman, S. and Kearns, M     
-**Venue**: Journal of Computer and Systems Sciences    
-**Date**: 1995
-
-**Summary**
-
-## Mixed initiative interfaces for learning tasks
->  **Authors**: Steven A. Wolfman, Tessa Lau, Pedro Domingos, Daniel S. Weld    
-**Venue**: Proceedings of the 6th international conference on Intelligent user interfaces      
-**Date**: January 2001. Santa Fe, New Mexico, USA.
-
-**Summary**
-
-
-## Interactive Machine Learning
-> **Authors**: Jerry Alan Fails, Dan R. Olsen, Jr.    
-**Venue**: 	Proceedings of the 8th international conference on Intelligent user interfaces    
-**Date**:   January 2003. Miami, Florida, USA 
-
-**Summary**
-
-## Interactive concept learning in image search
-> **Authors**: 	James Fogarty, Desney Tan, Ashish Kapoor, Simon Winder       
-**Venue**: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems 	    
-**Date**: April 2008. Florence, Italy    
-
-**Summary**
-
-## The teaching dimension of linear learners
->  **Authors**: Ji Liu, 	Xiaojin Zhu
-**Venue**: The Journal of Machine Learning Research     
-**Date**: 2016
-
-**Summary**
-
-
-## Interactive Semantic Featuring for Text Classification
-> **Authors**: Camille Jandot, Patrice Simard, Max Chickering, David Grangier, Jina Suh	       
-**Venue**: ICML Workshop on Human Interpretability in Machine Learning 	    
-**Date**: July 2016. New York, US    
-
-**Summary**
-
+| **Index** | **Paper Name** | **Year**  | **Venue** | **Status** |
+|:------------|:---------------|:-----------|:-----------------|:-----------------|
+| 1 | Machine Teaching: A New Paradigm for Building Machine Learning Systems | 2017 | Arxiv | [Read](learning-binary-relations-and-total-orders.md) |
+| 2 | Curriculum Learning | 2008 | ICML | |
+| 3 | Teachable robots: Understanding human teaching behavior to build more effective robot learners | 2008 | Elsevier | |
+| 4 | On the ComplexityofTeaching | 1992 | ACM Journal of Computer and System Sciences| |
+| 5 | Learning Binary Relations and Total Orders | 1989 | IEEE Annual Symposium on Foundations of Computer Science | |
+| 6 | Closing the loop: fast, interactive semi-supervised annotation with queries on features and instances | 2011 | ACL Empirical Methods in Natural Language Processing | |
+| 7 | The Label Complexity of Mixed-Initiative Classifier Training | 2016  | ICML |   |
+| 8 | Mixed initiative interfaces for learning tasks | 2001 | IUI | |
+| 9 | Interactive Machine Learning | 2003 | IUI | |
+| 10| Interactive concept learning in image search | 2008 | CHI | |
+| 11| The teaching dimension of linear learners | 2016 | Journal of Machine Learning Research | |
+| 12 | Interactive Semantic Featuring for Text Classification | 2016 | ICML workshop on Human Interpretability in Machine Learning | |
+| | | | | |
+| | | | | |
+| | | | | |
