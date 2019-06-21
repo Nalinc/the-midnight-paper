@@ -17,10 +17,12 @@
 | 6 | Curriculum Learning | 2008 | ICML | |
 | 7 | Teachable robots: Understanding human teaching behavior to build more effective robot learners | 2008 | Elsevier | |
 | 8 | Closing the loop: fast, interactive semi-supervised annotation with queries on features and instances | 2011 | ACL Empirical Methods in Natural Language Processing | |
-| 9 | The Label Complexity of Mixed-Initiative Classifier Training | 2016  | ICML |   |
-| 10| The teaching dimension of linear learners | 2016 | Journal of Machine Learning Research | |
-| 11 | Interactive Semantic Featuring for Text Classification | 2016 | ICML workshop on Human Interpretability in Machine Learning | |
-| 12 | Machine Teaching: A New Paradigm for Building Machine Learning Systems | 2017 | Arxiv | [Read](learning-binary-relations-and-total-orders.md) |
+| 9 | Behavioral Factors in Interactive Training of Text Classifiers | 2012 | ACL | |
+| 10 | Structured Labeling to Facilitate Concept Evolution in Machine Learning | 2014| CHI |  |
+| 11 | The Label Complexity of Mixed-Initiative Classifier Training | 2016  | ICML |   |
+| 12| The teaching dimension of linear learners | 2016 | Journal of Machine Learning Research | |
+| 13 | Interactive Semantic Featuring for Text Classification | 2016 | ICML workshop on Human Interpretability in Machine Learning | |
+| 14 | Machine Teaching: A New Paradigm for Building Machine Learning Systems | 2017 | Arxiv | [Read](learning-binary-relations-and-total-orders.md) |
 | | | | | |
 | | | | | |
 | | | | | |
