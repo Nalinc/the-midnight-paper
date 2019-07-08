@@ -9,7 +9,7 @@
 
 | **Index** | **Paper Name** | **Year**  | **Venue** | **Status** |
 |:------------|:---------------|:-----------|:-----------------|:-----------------|
-| 1 | Learning Binary Relations and Total Orders | 1989 | IEEE Annual Symposium on Foundations of Computer Science | |
+| 1 | Learning Binary Relations and Total Orders | 1989 | IEEE Annual Symposium on Foundations of Computer Science | [Read](learning-binary-relations-and-total-orders.md)|
 | 2 | On the ComplexityofTeaching | 1992 | ACM Journal of Computer and System Sciences| |
 | 3 | Mixed initiative interfaces for learning tasks | 2001 | IUI | |
 | 4 | Interactive Machine Learning | 2003 | IUI | |
@@ -22,7 +22,7 @@
 | 11 | The Label Complexity of Mixed-Initiative Classifier Training | 2016  | ICML |   |
 | 12| The teaching dimension of linear learners | 2016 | Journal of Machine Learning Research | |
 | 13 | Interactive Semantic Featuring for Text Classification | 2016 | ICML workshop on Human Interpretability in Machine Learning | |
-| 14 | Machine Teaching: A New Paradigm for Building Machine Learning Systems | 2017 | Arxiv | [Read](learning-binary-relations-and-total-orders.md) |
+| 14 | Machine Teaching: A New Paradigm for Building Machine Learning Systems | 2017 | Arxiv | |
 | | | | | |
 | | | | | |
 | | | | | |
